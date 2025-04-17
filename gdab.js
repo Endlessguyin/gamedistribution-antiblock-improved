@@ -1,3 +1,14 @@
+window.onbeforeunload = function (e) {
+  var message = "a",
+    e = e || window.event;
+  // For IE and Firefox
+  if (e) {
+    e.returnValue = message;
+  }
+
+  // For Safari
+  return message;
+};
 console.log(
     "%cGDAB is running!", 
     "color: white; " +
@@ -17,15 +28,3 @@ console.log(
     "padding: 10px"
 );
 alert("If you see a confirmation prompt asking to leave the page, please select cancel.")
-
-window.onbeforeunload = function (e) {
-  var message = "a",
-    e = e || window.event;
-  // For IE and Firefox
-  if (e) {
-    e.returnValue = message;
-  }
-
-  // For Safari
-  return message;
-};
