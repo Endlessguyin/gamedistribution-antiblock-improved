@@ -16,7 +16,7 @@ console.log(
     "display: block; " + 
     "padding: 10px"
 );
-alert("If you see a confirmation prompt asking to leave the page, please click cancel.")
+alert("If you see a confirmation prompt asking to leave the page, please select cancel.")
 
 window.onbeforeunload = function (e) {
   var message = "a",
