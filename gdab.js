@@ -4,8 +4,8 @@ console.log(
     "background-color: black; " +
     "font-size: 22px; " +
     "text-align: center; " +
-    "display: block; " +  // Needed for text-align to work
-    "padding: 10px"      // Adds some spacing around the text
+    "display: block; " +
+    "padding: 10px"
 );
 console.log(
     "%cGameDistribution-AntiBlock BETA, by syncintellect @ github", 
@@ -13,8 +13,8 @@ console.log(
     "background-color: black; " +
     "font-size: 12px; " +
     "text-align: center; " +
-    "display: block; " +  // Needed for text-align to work
-    "padding: 10px"      // Adds some spacing around the text
+    "display: block; " + 
+    "padding: 10px"
 );
 alert("If you see a confirmation prompt asking to leave the page, please click cancel.")
 
