@@ -1,13 +1,9 @@
-window.onbeforeunload = function(e) {
-  if (e) {
-    e.preventDefault();
-    e.stopPropagation();
-  }
-  
+window.onbeforeunload = function() {
   setTimeout(function() {
     window.stop();
   }, 1);
 };
+
 
 const originalWindowOpen = window.open;
 window.open = function() {
