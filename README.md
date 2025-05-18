@@ -1,14 +1,18 @@
-# Origin of this script
+# GameDistribution Anti-Block (Improved Version)
 
-You can find the original version of this script on syncintellect's profile here on GitHub.
+A greatly enhanced version of the original script by [syncintellect](https://github.com/syncintellect), designed to block all GameDistribution ads, popups, and redirects.
 
-# How to use
-Insert the snippet below at the beggining of your ``index.html``.
+---
 
-```javascript
+## Origin of this Script
+
+The original version of this script was developed by [syncintellect](https://github.com/syncintellect) and can be found on their GitHub profile.
+
+---
+
+## How to Use
+
+To integrate this script into your site, add the following snippet to the **top** of your `index.html` file, just inside the `<head>` tag:
+
+```html
 <script type="text/javascript" src="https://cdn.statically.io/gh/endlessguyin/gamedistribution-antiblock-improved/main/gdab.js"></script>
-```
-
-# How's it improved
-
-The script has been improved in MANY ways. Compared to syncintellect's base script, this one blocks all redirects, and there are NO popups appearing at all. This script also blocks ads from the Game Distribution, ensuring an ad-free, uninterrupted experience.
